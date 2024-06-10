@@ -1,8 +1,8 @@
 .text-site-light{
-    color: #FD1C68!important;
+    color: #851cfd!important;
 }
-.btn-bg-light{
-    background: linear-gradient(#FDAE8F, #FD1C68);
+.btn-bg-light {
+    background: linear-gradient(#FDAE8F, #fd1c1c);
 }
 .btn-bg-dark{
     background: #030812;
@@ -16,40 +16,65 @@
 .radius{
     border-radius: 24px;
 }
+
 .text-site-gradient{
-    color: #FD1C68!important;
+    color: #851cfd!important;
 }
 .bg-site-image{
     height: 80dvh;
-    background-image: url("../images/Image.png");
+    background-size: cover;
+    background-image: url("../images/fundal.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    
 }
+
 .title h2{
-    font-size: 55px;
+    font-size: 50px;
 }
 .bg-card{
     background: rgba(53, 57, 65, 0.41)!important;
 }
-.icons .fa-heart{
-    cursor: pointer;
-}
+
 .header-title{
     font-size: 48px;
+    text-align: center;
 }
 .header-description{
     font-size: 20px;
 }
-.swiper-pagination{
-    background-color: white;
 
+
+//Footer
+
+.footer-contact-section {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
 }
-.like-button{
-    cursor: pointer;
+.footer-contact-section svg {
+    fill: white; 
+    width: 40px; 
+    height: 40px; 
 }
-.collections .images img{
-    height: 25dvh;
-    object-fit: cover;
+.phone, .offices, .mail {
+    text-align: center;
+}
+.line {
+    width: 500px;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+}
+.line.right {
+    margin-right: 0;
+    margin-left: auto;
+}
+.detail {
+    margin-top: 10px;
+}
+.detail span, .detail a {
+    display: block;
 }
 @media screen and (max-width: 992px) {
     .bg-site-image{
@@ -60,3 +85,87 @@
         font-size: 40px;
     }
 }
+//About
+.image-container {
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    padding-left: 20px;
+}
+
+.icon-container {
+    justify-content: center;
+}
+
+.icon-item {
+    text-align: center;
+    margin-left: 90px;
+ 
+}
+.icon-item img {
+    width: 100px; 
+}
+//Gallery
+/* Secțiunea Contact Us */
+ .contact-us {
+    padding: 20px;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .address {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .phone {
+    font-weight: bold;
+  }
+  
+  .contact-form {
+    width: 822px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom:20px;
+  }
+  
+  .contact-info-map {
+    float: right; 
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  .form{
+    display: flex;
+    flex-direction: row;
+    color:white;
+  }
+  .contact-form-image{
+    float: right; 
+    margin-top: 70px;
+    margin-left: 96px;
+    margin-right: 0;
+  }

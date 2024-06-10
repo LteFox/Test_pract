@@ -1,617 +1,215 @@
 @extends('layouts.guest')
 
 @section('content')
-
-<div class="bg_image">
-
 <!-- Header -->
-<header >
+<div class="bg_image">
+<header>
     <div class="container align-items-center justify-content-between top_content">
         <div class="col-lg-6">
             <h1 class="text-center text-lg-start text-white mb-5 header-title">
-                Get Ready to Play, Explore, Conquer <br>
+            HELLO, YOU ARE IN THE RIGHT PLACE <br>
                 <!-- <span class="text-site-gradient">NFTs</span> -->
             </h1>
             <p class="text-light mb-5 text-center text-lg-start header-description">
-            Embark on your gaming journey of discovery and excitement right here, where the world of immersive gameplay.
+            If you expect your software to be worked with hand in hand with your best idea
             </p>
-            <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="#" class="btn text-white px-4 py-2 me-3 btn-ex">
-                    <!-- <i class="fa-solid fa-rocket"></i> -->
-                    Explore
+            <div class="d-flex justify-content-center">
+                <a href="/login" class="btn btn-bg-light btn-lg text-white px-4 py-2 me-3">
+                    <i class=""></i>
+                    Log In
                 </a>
-                <a href="#" class="btn text-white px-4 py-2 btn-lm">
-                    <!-- <i class="fa-solid fa-plus"></i> -->
-                    Learn More
+                <a href="/register" class="btn btn-bg-dark border btn-lg  text-white px-4 py-2">
+                    <i class=""></i>
+                    Register
                 </a>
-            </div>
-
-        </div>
-        <div class="framer ">
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-1.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div>
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-2.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div>
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-3.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
             </div>
         </div>
     </div>
-    
 </header>
-<div class="container title d-flex flex-column justify-content-center align-items-center flex-lg-row my-5">
-        <h2 class="text-white ">Explore LvlUp</h2>
-    </div>
-    <div class="description container">
-        <div class="info col-lg me-3 justify-content-center"> 
-            <div class="circl mb-3"><i class="fa-solid fa-dragon"></i></div>
-            <h4>Extensive Game Library</h4>
-            <p>Dive into a vast collection of games spanning all genres, from action-packed adventures to mind-bending puzzles.</p>
-        </div>
-        <div class="info col-lg me-3"> 
-        <div class="circl mb-3"><i class="fa-solid fa-puzzle-piece"></i></div>
-            <h4>Cross-Platform Play</h4>
-            <p>Play with friends on different platforms seamlessly, whether you're on console, PC, or mobile.</p>
-        </div>
-        <div class="info col-lg me-3"> 
-            <div class="circl mb-3"><i class="fa-solid fa-desktop"></i></div>
-            <h4>Exclusive Content Play</h4>
-            <p>Discover exclusive titles and content you won't find anywhere else, tailored for our PlayFlix community.</p>
-        </div>
-        <div class="info col-lg "> 
-            <div class="circl mb-3"><i class="fa-solid fa-computer"></i></div>
-            <h4>Ultra-HD Graphics Play</h4>
-            <p>Immerse yourself in stunning visuals with our games optimized for high-definition displays.</p>
-        </div>
-    </div>
-</div>
+
 <!-- End Header -->
-<!-- Auctions -->
-<div class="title-2 container"><h1>Discover the Most Popular Games</h1></div> <!--titlu-->
-<div class="swiper auctionsSwiper container ">
-
-        <div class="swiper-wrapper">
-            <!-- Card 1 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4 ">
-                    <img src="{{ asset('assets/images/section_2/card-1.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">145</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-2.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">372</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-3.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">231</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-4.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">321</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-1.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">145</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-2.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">145</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-
-
-<div class="bg-img-2 c"><!--Pentru a 2 imagine bg-->
-<section class="auctions my-lg-2 ">
-    
-    <div class="swiper auctionsSwiper container ">
-        <div class="swiper-wrapper">
-            <!-- Card 1 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4 ">
-                    <img src="{{ asset('assets/images/section_2/card-1.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">145</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-2.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">372</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-3.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">231</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-4.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">321</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-1.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">145</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="swiper-slide">
-                <div class="card bg-card radius p-4">
-                    <img src="{{ asset('assets/images/section_2/card-2.png') }}" class="card-img-top" alt="Metaverse">
-                    <div class="card-body">
-                        <div class="d-flex author flex-row align-items-center">
-                            <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h5 class="text-white mb-0">Metaverse</h5>
-                                <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                            </div>
-                        </div>
-                        <div class="icons my-3 d-flex justify-content-around">
-                            <div class="d-flex flex-column">
-                                <i class="fa-regular fa-heart text-white text-center"></i>
-                                <span class="text-white">145</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-solid fa-crown text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white crown">1</span>/100</span>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <i class="fa-brands fa-ethereum text-white text-center"></i>
-                                <span class="text-secondary"><span class="text-white me-1">5.00</span>ETH</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                                <i class="fa-solid fa-stopwatch"></i>
-                                12d 13h 56m
-                            </span>
-
-                            <button class="btn btn-bg-light text-white p-3 flex-fill place-bid-btn">
-                                <i class="fa-solid fa-crown text-center"></i>
-                                Place Bid
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
-        <h2 class="text-white text-center text-lg-start">Popular Collections</h2>
+<!-- About -->
+<section class=" my-lg-2">
+    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
+        <h2 class="text-white">About Them
+        </h2>
         <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-            <i class="fa-solid fa-rocket"></i>
+            <i class="fa-solid fa-book-open"></i>
             Explore All
         </a>
     </div>
+
+    <div class=" container d-flex  justify-content-between align-items-center flex-lg-column my-5">
+        <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
+            <div class="image-container col-lg-6">
+                <img src="{{ asset('assets/images/aboutUs/about.jpg') }}" alt="About Us Image" class="img-fluid">
+            </div>
+            <div class="content-info">
+                <p class="text-white">MILAV este o companie de dezvoltare software cu sediul în Moldova (Cahul), România. Ea lucrează în principal cu clienți străini și îi ajută să dezvolte soluții software care să le transforme ideile într-un produs digital gata.
+
+                    Unele dintre produsele create pentru clienții săi includ site-uri web corporative, magazine online, portaluri uriașe, aplicații web și pentru întreprinderi, aplicații mobile, dezvoltare full-stack și componente web reutilizabile.
+
+                    MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
+                </p>
+                <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">More info ---></a>
+            </div>
+
+        </div>
+
+        <div class="icon-container d-flex mt-5 ">
+            <div class="icon-item me-4 mb-4 ">
+                <img src="{{ asset('assets/images/aboutUs/1.svg') }}" alt="Icon 1" class="img-fluid">
+            </div>
+            <div class="icon-item me-4  mb-4">
+                <img src="{{ asset('assets/images/aboutUs/2.svg') }}" alt="Icon 2" class="img-fluid">
+            </div>
+            <div class="icon-item me-4  mb-4">
+                <img src="{{ asset('assets/images/aboutUs/3.svg') }}" alt="Icon 3" class="img-fluid">
+            </div>
+            <div class="icon-item  me-4 mb-4">
+                <img src="{{ asset('assets/images/aboutUs/4.svg') }}" alt="Icon 4" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
 </section>
 </div>
-<!-- End Auctions -->
-<!-- Collections -->
+
+<!-- End About Them -->
+<!-- Gallery -->
 <section class="collections my-5 py-5">
+    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
+        <h2 class="text-white text-center text-lg-start">Gallery</h2>
+        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
+            <i class="fa-regular fa-images"></i>
+            Explore All
+        </a>
+    </div>
     <div class="container">
         <div class="row">
-            @foreach($collections as $collection)
-                <div class="col-md-4">
+            <div class="col-md-4">
                 <div class="card bg-card radius">
                     <div class="card-body">
-                        <div class="d-flex flex-wrap images">
-                            @foreach($collection->images()->limit(4)->get() as $image)
-                                <img src="{{ asset(env('UPLOADS_IMAGE'). "/" . $image->name) }}" class="w-50 p-2 radius" alt="Metaverse">
-                            @endforeach
+                        <div class="d-flex flex-wrap">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
                         </div>
                         <div class="d-flex justify-content-between mt-3">
                             <div class="d-flex author flex-row align-items-center">
-                                <img src="{{ asset('assets/images/section_2/Avatar.png') }}" alt="Avatar" class="avatar me-3">
                                 <div class="d-flex flex-column justify-content-center">
-                                    <h5 class="text-white mb-0">{{ $collection->name }}</h5>
-                                    <p class="text-secondary mb-0">Created by <span class="text-white">{{ $collection->user()->get()->first()->name }}</span></p>
+                                    <h5 class="text-white mb-0">Metaverse</h5>
+                                    <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
                                 </div>
                             </div>
-                            <div class="d-flex flex-column justify-content-center">
-                                <i class="fa-regular fa-heart text-white text-center like-button" data-collection-id="{{ $collection->id }}"></i>
-                                <span class="text-white text-center like" >{{ $collection->likes }}</span>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            @endforeach
+            <div class="col-md-4">
+                <div class="card bg-card radius">
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="d-flex author flex-row align-items-center">
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h5 class="text-white mb-0">Metaverse</h5>
+                                    <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-card radius">
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="d-flex author flex-row align-items-center">
+
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h5 class="text-white mb-0">Metaverse</h5>
+                                    <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<!-- End Gallery -->
+<!-- Contact Them -->
+<section class=" my-5 py-5">
+    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
+        <h2 class="text-white text-center text-lg-start">Contact Them</h2>
+        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
+            <i class="fa-regular fa-images"></i>
+            Explore All
+        </a>
+    </div>
+    <div class=" container contact-info">
+        <div>
+            <h3 style="color: white;">Vizitați una dintre locații în Cahul, sau contactați</h3>
+            <p style="color: white;">
+                <span class="address">Sediul central:</span><br>
+                <span class="address">Cahul
+                    B.P. Hașdeu Street 2
+                    Rep. Moldova</span><br>
+                <span class="address">csatlos.sandor@milav.eu</span><br>
+                <span class="phone"><i class="fas fa-phone"></i> Telefon: +40 747 191 825</span>
+            </p>
+        </div>
+        <div class="contact-info-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1030.4945393529008!2d28.18743321953205!3d45.900948652548735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65db775628177%3A0x3eb9667f8dbcdc13!2sMILAV%20IT!5e0!3m2!1sro!2s!4v1717274391390!5m2!1sro!2s" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
 
-<!-- End Collections -->
+    <div class=" container form">
+        <div>
+            <form action="" method="post" class="contact-form">
+                <h3 style="color: white;">Scrieți un mesaj</h3>
+                <label for="name">Numele dumneavoastră</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Adresa de e-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subiect</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Mesajul dumneavoastră</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
+                    <i class=""></i>
+                    Submit
+                </a>
+            </form>
+        </div>
+        <div class="contact-form-image">
+            <img src="{{ asset('assets/images/contact/contact1.png') }}" alt="Imagine de contact">
+        </div>
+
+    </div>
+
+
+
+</section>
+<!-- End Contact Us -->
 @endsection
