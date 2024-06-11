@@ -19,9 +19,9 @@ class RoutController extends Controller
         $collections = Collection::limit(4)->get();
         return view('guest.gallery', ['collections' => $collections]);
     }
-    public function contact_us():View
+    public function contact():View
     {
         $collections = Collection::limit(4)->get();
-        return view('guest.contact_us', ['collections' => $collections]);
+        return view('guest.contact', ['collections' => $collections]);
     }
 }

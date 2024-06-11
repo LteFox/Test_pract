@@ -13,6 +13,32 @@
             <p class="text-light mb-5 text-center text-lg-start header-description">
             If you expect your software to be worked with hand in hand with your best idea
             </p>
+            <!-- <div class="d-flex justify-content-center">
+                <a href="/login" class="btn btn-bg-light btn-lg text-white px-4 py-2 me-3">
+                    <i class=""></i>
+                    Log In
+                </a>
+                <a href="/register" class="btn btn-bg-dark border btn-lg  text-white px-4 py-2">
+                    <i class=""></i>
+                    Register
+                </a>
+            </div> -->
+        </div>
+        <div>
+        <div class="framer ">
+            <div class="bloc rounded">
+                <img src="{{ asset('assets/images/img1.svg')}}" alt="">
+                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
+            </div>
+            <!-- <div class="bloc rounded">
+                <img src="{{ asset('assets/images/bloc-2.jpg')}}" alt="">
+                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
+            </div>
+            <div class="bloc rounded">
+                <img src="{{ asset('assets/images/bloc-3.jpg')}}" alt="">
+                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
+            </div> -->
+        </div>
         </div>
     </div>
 </header>

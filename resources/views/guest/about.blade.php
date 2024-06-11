@@ -4,10 +4,10 @@
 <!-- Header -->
 <div class="bg_image">
 <header>
-    <div class="container align-items-center justify-content-between top_content">
+    <!-- <div class="container align-items-center justify-content-between top_content">
         <div class="col-lg-6">
             <h1 class="text-center text-lg-start text-white mb-5 header-title">
-                <!-- <span class="text-site-gradient">NFTs</span> -->
+                !-- <span class="text-site-gradient">NFTs</span> --
             </h1>
             <p class="text-light mb-5 text-center text-lg-start header-description">
             If you expect your software to be worked with hand in hand with your best idea
@@ -23,7 +23,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 </header>
 
 <!-- End Header -->
