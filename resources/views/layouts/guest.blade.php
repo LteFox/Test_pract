@@ -15,9 +15,9 @@
     
 </head>
 <body>
-    <div class="container ">
+    <div class="container z-3">
         <nav class="navbar navbar-expand-lg  " data-bs-theme="dark">
-            <div class="container-fluid  ">
+            <div class="container-fluid z-3  ">
                 <a class="navbar-brand" href="{{ route('guest.index') }}">
                     <img src="{{ asset('assets/images/MilavLogoWhiteSmall2.png') }}" alt="Logo" class="logo">
                 </a>
@@ -25,11 +25,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-                    <div class="navbar-nav col-6">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active" href="#">About</a>
-                        <a class="nav-link active" href="#">Gallery</a>
-                        <a class="nav-link active" href="#">Contact us</a>
+                    <div class="navbar-nav col-6 z-3">
+                        <a class="nav-link active" aria-current="page" href="{{ route('guest.index') }}">Home</a>
+                        <a class="nav-link active" href="{{ route('guest.about') }}">About</a>
+                        <a class="nav-link active" href="{{ route('guest.gallery') }}">Gallery</a>
+                        <a class="nav-link active" href="{{ route('guest.contact_us') }}">Contact us</a>
                     </div>
                     <div class="navbar-nav logaut col-4" >
                         <a href="/login" class="nav-link active log-in "><i class="fa-solid fa-right-to-bracket" ></i>Log In</a>
