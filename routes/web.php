@@ -11,7 +11,7 @@ use App\Http\Controllers\RoutController;
 Route::get('/', [GuestController::class, 'index'])->name('guest.index');
 Route::get('/about', [RoutController::class, 'about'])->name('guest.about');
 Route::get('/gallery', [RoutController::class, 'gallery'])->name('guest.gallery');
-Route::get('/contact_us', [RoutController::class, 'gallery'])->name('guest.contact_us');
+Route::get('/contact', [RoutController::class, 'contact'])->name('guest.contact');
 
 //Dashboard
 Auth::routes();

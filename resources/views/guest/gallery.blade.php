@@ -4,10 +4,10 @@
 <!-- Header -->
 <div class="bg_image">
 <header>
-    <div class="container align-items-center justify-content-between top_content">
+    <!-- <div class="container align-items-center justify-content-between top_content">
         <div class="col-lg-6">
             <h1 class="text-center text-lg-start text-white mb-5 header-title">
-                <!-- <span class="text-site-gradient">NFTs</span> -->
+                !-- <span class="text-site-gradient">NFTs</span> --
             </h1>
             <p class="text-light mb-5 text-center text-lg-start header-description">
             </p>
@@ -22,14 +22,14 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 </header>
 
 <!-- End Header -->
 <!-- About -->
 <section class=" my-lg-2">
     <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-        <h2 class="text-white">About Them
+        <!-- <h2 class="text-white">About Them -->
         </h2>
         <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
             <i class="fa-solid fa-book-open"></i>

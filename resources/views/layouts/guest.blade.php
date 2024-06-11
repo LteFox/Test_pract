@@ -29,7 +29,7 @@
                         <a class="nav-link active" aria-current="page" href="{{ route('guest.index') }}">Home</a>
                         <a class="nav-link active" href="{{ route('guest.about') }}">About</a>
                         <a class="nav-link active" href="{{ route('guest.gallery') }}">Gallery</a>
-                        <a class="nav-link active" href="{{ route('guest.contact_us') }}">Contact us</a>
+                        <a class="nav-link active" href="{{ route('guest.contact') }}">Contact us</a>
                     </div>
                     <div class="navbar-nav logaut col-4" >
                         <a href="/login" class="nav-link active log-in "><i class="fa-solid fa-right-to-bracket" ></i>Log In</a>
