@@ -4,8 +4,36 @@
 <!-- Header -->
 <div class="bg_image">
 <header>
-    <div class="container align-items-center justify-content-between top_content">
+    <!-- <div class="container align-items-center justify-content-between top_content">
         <div class="col-lg-6">
+            <h1 class="text-center text-lg-start text-white mb-5 header-title">
+            HELLO, YOU ARE IN THE RIGHT PLACE <br>
+                !-- <span class="text-site-gradient">NFTs</span> --
+            </h1>
+            <p class="text-light mb-5 text-center text-lg-start header-description">
+            If you expect your software to be worked with hand in hand with your best idea
+            </p>
+            !-- <div class="d-flex justify-content-center">
+                <a href="/login" class="btn btn-bg-light btn-lg text-white px-4 py-2 me-3">
+                    <i class=""></i>
+                    Log In
+                </a>
+                <a href="/register" class="btn btn-bg-dark border btn-lg  text-white px-4 py-2">
+                    <i class=""></i>
+                    Register
+                </a>
+            </div> --
+            
+        </div>
+        <div class="framer col-lg-6 ">
+            <div class="bloc">
+                <img src="{{ asset('assets/images/img1.svg')}}" alt="">
+            </div>
+        </div>
+        
+    </div> -->
+    <div class="container align-items-center justify-content-between top_content d-flex">
+        <div class="col-lg-5">
             <h1 class="text-center text-lg-start text-white mb-5 header-title">
             HELLO, YOU ARE IN THE RIGHT PLACE <br>
                 <!-- <span class="text-site-gradient">NFTs</span> -->
@@ -23,22 +51,12 @@
                     Register
                 </a>
             </div> -->
+
         </div>
-        <div>
         <div class="framer ">
             <div class="bloc rounded">
-                <img src="{{ asset('assets/images/img1.svg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
+                <img src="{{ asset('assets/images/ver-3.png')}}" alt="">
             </div>
-            <!-- <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-2.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div>
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-3.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div> -->
-        </div>
         </div>
     </div>
 </header>
