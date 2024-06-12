@@ -43,7 +43,7 @@
     box-shadow: 0px -950px 450px 0px #030812 inset;
     background-size: 100%;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.6;
     z-index: -1;
 }
 
@@ -70,6 +70,10 @@
 
 .form-control{
     border: 0;
+}
+
+.form-control::placeholder{
+    background-color: transparent;
 }
 
 .form input{
