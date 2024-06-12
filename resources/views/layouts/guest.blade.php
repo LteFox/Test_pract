@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,8 +13,9 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
-    
+
 </head>
+
 <body>
     <div class="container z-3">
         <nav class="navbar navbar-expand-lg  " data-bs-theme="dark">
@@ -24,17 +26,26 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-                    <div class="navbar-nav col-6 z-3">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav z-3 menu">
                         <a class="nav-link active" aria-current="page" href="{{ route('guest.index') }}">Home</a>
                         <a class="nav-link active" href="{{ route('guest.about') }}">About</a>
                         <a class="nav-link active" href="{{ route('guest.gallery') }}">Gallery</a>
                         <a class="nav-link active" href="{{ route('guest.contact') }}">Contact us</a>
                     </div>
-                    <div class="navbar-nav logaut col-4" >
-                        <a href="/login" class="nav-link active log-in "><i class="fa-solid fa-right-to-bracket" ></i>Log In</a>
-                        <a href="/register" class="nav-link active reg"><i class="fa-regular fa-address-card"></i>Register</a>
-                    </div>    
+                    <div class="d-flex">
+                    <nav class="navbar box-search ms-3 me-3">
+                        <form class="form">                            
+                            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                            <div class="searh"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        </form>
+                    </nav>
+                    <div class="navbar-nav logaut">
+                        <a href="/login" class="nav-link active log-in "><i class="fa-solid fa-right-to-bracket me-3"></i>Log In</a>
+                        <a href="/register" class="nav-link active reg"><i class="fa-regular fa-address-card me-3"></i>Register</a>
+                    </div>
+                    </div>
+                    
                 </div>
             </div>
         </nav>
@@ -42,68 +53,64 @@
 
     @yield('content')
 
-    
+
     <footer class="mt-5 text-white d-flex align-items-center justify-content-center  ">
         <div class="d-flex flex-column">
             <div class="container footer-contact-section ">
                 <div class="phone">
-                  <hr class="line">
-                  <svg version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
-                    <g>
-                      <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
+                    <hr class="line">
+                    <svg version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                        <g>
+                            <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
                                          s-5-2.243-5-5S27.243,14,30,14z" />
-                      <path d="M29.823,54.757L45.164,32.6c5.754-7.671,4.922-20.28-1.781-26.982C39.761,1.995,34.945,0,29.823,0
+                            <path d="M29.823,54.757L45.164,32.6c5.754-7.671,4.922-20.28-1.781-26.982C39.761,1.995,34.945,0,29.823,0
                                          s-9.938,1.995-13.56,5.617c-6.703,6.702-7.535,19.311-1.804,26.952L29.823,54.757z M17.677,7.031C20.922,3.787,25.235,2,29.823,2
                                          s8.901,1.787,12.146,5.031c6.05,6.049,6.795,17.437,1.573,24.399L29.823,51.243L16.082,31.4
                                          C10.882,24.468,11.628,13.08,17.677,7.031z" />
-                      <path d="M42.117,43.007c-0.55-0.067-1.046,0.327-1.11,0.876s0.328,1.046,0.876,1.11C52.399,46.231,58,49.567,58,51.5
+                            <path d="M42.117,43.007c-0.55-0.067-1.046,0.327-1.11,0.876s0.328,1.046,0.876,1.11C52.399,46.231,58,49.567,58,51.5
                                          c0,2.714-10.652,6.5-28,6.5S2,54.214,2,51.5c0-1.933,5.601-5.269,16.117-6.507c0.548-0.064,0.94-0.562,0.876-1.11
                                          c-0.065-0.549-0.561-0.945-1.11-0.876C7.354,44.247,0,47.739,0,51.5C0,55.724,10.305,60,30,60s30-4.276,30-8.5
                                          C60,47.739,52.646,44.247,42.117,43.007z" />
-                    </g>
-                  </svg>
-                  <hr class="line right">
-                  <div class="detail">
-                    <span>Odorheiu Secuiesc<br>
-                      II. Rákoczi Ferenc Street 84<br>
-                      Harghita, Romania</span>
-                  </div>
+                        </g>
+                    </svg>
+                    <hr class="line right">
+                    <div class="detail">
+                        <span>Odorheiu Secuiesc<br>
+                            II. Rákoczi Ferenc Street 84<br>
+                            Harghita, Romania</span>
+                    </div>
                 </div>
-          
+
                 <div class="offices">
-                  <hr class="line">
-                  <svg version="1.1" id="Capa_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
-                    <g>
-                      <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
+                    <hr class="line">
+                    <svg version="1.1" id="Capa_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                        <g>
+                            <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
                                          s-5-2.243-5-5S27.243,14,30,14z" />
-                      <path d="M29.823,54.757L45.164,32.6c5.754-7.671,4.922-20.28-1.781-26.982C39.761,1.995,34.945,0,29.823,0
+                            <path d="M29.823,54.757L45.164,32.6c5.754-7.671,4.922-20.28-1.781-26.982C39.761,1.995,34.945,0,29.823,0
                                          s-9.938,1.995-13.56,5.617c-6.703,6.702-7.535,19.311-1.804,26.952L29.823,54.757z M17.677,7.031C20.922,3.787,25.235,2,29.823,2
                                          s8.901,1.787,12.146,5.031c6.05,6.049,6.795,17.437,1.573,24.399L29.823,51.243L16.082,31.4
                                          C10.882,24.468,11.628,13.08,17.677,7.031z" />
-                      <path d="M42.117,43.007c-0.55-0.067-1.046,0.327-1.11,0.876s0.328,1.046,0.876,1.11C52.399,46.231,58,49.567,58,51.5
+                            <path d="M42.117,43.007c-0.55-0.067-1.046,0.327-1.11,0.876s0.328,1.046,0.876,1.11C52.399,46.231,58,49.567,58,51.5
                                          c0,2.714-10.652,6.5-28,6.5S2,54.214,2,51.5c0-1.933,5.601-5.269,16.117-6.507c0.548-0.064,0.94-0.562,0.876-1.11
                                          c-0.065-0.549-0.561-0.945-1.11-0.876C7.354,44.247,0,47.739,0,51.5C0,55.724,10.305,60,30,60s30-4.276,30-8.5
                                          C60,47.739,52.646,44.247,42.117,43.007z" />
-                    </g>
-                  </svg>
-                  <hr class="line right">
-                  <div class="detail">
-                    <span>Cahul <br>
-                      B.P. Hașdeu Street 2 <br>
-                      Rep. Moldova</span>
-                  </div>
+                        </g>
+                    </svg>
+                    <hr class="line right">
+                    <div class="detail">
+                        <span>Cahul <br>
+                            B.P. Hașdeu Street 2 <br>
+                            Rep. Moldova</span>
+                    </div>
                 </div>
                 <div class="mail">
-                  <hr class="line">
-                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px" y="0px" viewBox="0 0 511.874 511.874" style="enable-background:new 0 0 511.874 511.874;"
-                    xml:space="preserve">
-                    <g>
-                      <g>
+                    <hr class="line">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.874 511.874" style="enable-background:new 0 0 511.874 511.874;" xml:space="preserve">
                         <g>
-                          <path d="M490.114,12.813H132.568c-12.012,0.014-21.746,9.748-21.76,21.76v98.62l-16.35-24.525
+                            <g>
+                                <g>
+                                    <path d="M490.114,12.813H132.568c-12.012,0.014-21.746,9.748-21.76,21.76v98.62l-16.35-24.525
                           c-7.484-11.289-22.535-14.676-34.133-7.68l-33.638,20.224c-11.016,6.464-19.097,16.946-22.545,29.244
                           c-12.271,44.681-3.166,121.66,109.824,234.667C203.821,474.885,270.816,499.06,316.99,499.06
                           c10.69,0.049,21.339-1.34,31.659-4.13c12.293-3.448,22.775-11.518,29.252-22.519l20.198-33.673
@@ -120,63 +127,64 @@
                           c-1.96-3.54-1.022-7.982,2.202-10.428l30.157-23.458c10.43-8.17,12.833-22.982,5.521-34.031l-20.275-30.43V34.573
                           c-0.014-1.249,0.476-2.451,1.359-3.334c0.883-0.883,2.085-1.373,3.334-1.359h357.547c1.249-0.014,2.451,0.476,3.334,1.359
                           c0.883,0.883,1.373,2.085,1.359,3.334V298.526z" />
-                          <path d="M460.725,52.323l-142.618,108.16c-4.035,2.932-9.499,2.932-13.534,0L162.008,52.323
+                                    <path d="M460.725,52.323l-142.618,108.16c-4.035,2.932-9.499,2.932-13.534,0L162.008,52.323
                           c-3.756-2.849-9.111-2.113-11.959,1.643c-2.849,3.756-2.113,9.111,1.643,11.959l142.583,108.151
                           c10.144,7.494,23.989,7.494,34.133,0L471.034,65.925c1.805-1.368,2.992-3.398,3.299-5.642c0.307-2.244-0.29-4.518-1.661-6.321
                           C469.824,50.213,464.478,49.48,460.725,52.323z" />
-                          <path d="M238.517,174.793l-87.415,93.611c-3.214,3.447-3.025,8.848,0.422,12.062c3.447,3.214,8.848,3.025,12.062-0.422
+                                    <path d="M238.517,174.793l-87.415,93.611c-3.214,3.447-3.025,8.848,0.422,12.062c3.447,3.214,8.848,3.025,12.062-0.422
                           l87.416-93.653c2.888-3.484,2.553-8.617-0.762-11.698C246.924,171.612,241.78,171.656,238.517,174.793z" />
-                          <path d="M384.728,174.793c-3.214-3.447-8.614-3.637-12.062-0.422c-3.447,3.214-3.637,8.614-0.422,12.062l87.39,93.611
+                                    <path d="M384.728,174.793c-3.214-3.447-8.614-3.637-12.062-0.422c-3.447,3.214-3.637,8.614-0.422,12.062l87.39,93.611
                           c3.214,3.447,8.614,3.637,12.062,0.422c3.447-3.214,3.637-8.614,0.422-12.062L384.728,174.793z" />
+                                </g>
+                            </g>
                         </g>
-                      </g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                  </svg>
-                  <hr class="line right">
-                  <div class="detail">
-                    <span>Contact Details: </span>
-                    <a href="mailto:csatlos.sandor@milav.eu" target="_blank">csatlos.sandor@milav.eu</a>
-                    <a href="tel:0040747191825">+40 747 191 825</a>
-                  </div>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </svg>
+                    <hr class="line right">
+                    <div class="detail">
+                        <span>Contact Details: </span>
+                        <a href="mailto:csatlos.sandor@milav.eu" target="_blank">csatlos.sandor@milav.eu</a>
+                        <a href="tel:0040747191825">+40 747 191 825</a>
+                    </div>
                 </div>
-              </div>
+            </div>
             <div class="d-flex align-center justify-content-center ">
                 <p class="my-5">
                     Copyright 2024 <a href="/">Milav</a>
                 </p>
             </div>
         </div>
-        
+
     </footer>
 </body>
+
 </html>

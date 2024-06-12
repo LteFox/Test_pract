@@ -3,92 +3,90 @@
 @section('content')
 <!-- Header -->
 <div class="bg_image">
-<header>
-    <div class="container align-items-center justify-content-between top_content">
-        <div class="col-lg-6">
-            <h1 class="text-center text-lg-start text-white mb-5 header-title">
-            HELLO, YOU ARE IN THE RIGHT PLACE <br>
-                <!-- <span class="text-site-gradient">NFTs</span> -->
-            </h1>
-            <p class="text-light mb-5 text-center text-lg-start header-description">
-            If you expect your software to be worked with hand in hand with your best idea
-            </p>
-            <!-- <div class="d-flex justify-content-center">
-                <a href="/login" class="btn btn-bg-light btn-lg text-white px-4 py-2 me-3">
-                    <i class=""></i>
-                    Log In
-                </a>
-                <a href="/register" class="btn btn-bg-dark border btn-lg  text-white px-4 py-2">
-                    <i class=""></i>
-                    Register
-                </a>
-            </div> -->
-        </div>
-        <div>
-        <div class="framer ">
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/img1.svg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div>
-            <!-- <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-2.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div>
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/bloc-3.jpg')}}" alt="">
-                <div class="score d-flex "><i class="fa-solid fa-star me-2" style="color: #FFD43B;"></i><p>4.9/5</p></div>
-            </div> -->
-        </div>
-        </div>
-    </div>
-</header>
-
-<!-- End Header -->
-<!-- About -->
-<section class=" my-lg-2">
-    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-        <h2 class="text-white">About Them
-        </h2>
-        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-            <i class="fa-solid fa-book-open"></i>
-            Explore All
-        </a>
-    </div>
-
-    <div class=" container d-flex  justify-content-between align-items-center flex-lg-column my-5">
-        <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
-            <div class="image-container col-lg-6">
-                <img src="{{ asset('assets/images/aboutUs/about.jpg') }}" alt="About Us Image" class="img-fluid">
-            </div>
-            <div class="content-info">
-                <p class="text-white">MILAV este o companie de dezvoltare software cu sediul în Moldova (Cahul), România. Ea lucrează în principal cu clienți străini și îi ajută să dezvolte soluții software care să le transforme ideile într-un produs digital gata.
-
-                    Unele dintre produsele create pentru clienții săi includ site-uri web corporative, magazine online, portaluri uriașe, aplicații web și pentru întreprinderi, aplicații mobile, dezvoltare full-stack și componente web reutilizabile.
-
-                    MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
+    <header>
+        <div class="container align-items-center justify-content-center top_content d-flex mt-5">
+            <div class="col-lg-5">
+                <h1 class="text-center text-lg-centr text-white mb-5 header-title">
+                    HELLO, YOU ARE IN THE RIGHT PLACE <br>
+                    <!-- <span class="text-site-gradient">NFTs</span> -->
+                </h1>
+                <p class="text-light mb-5 text-center text-lg-centr header-description">
+                    If you expect your software to be worked with hand in hand with your best idea
                 </p>
-                <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">More info ---></a>
             </div>
-
+            <!-- <div class="framer ">
+            <div class="bloc rounded">
+                <img src="{{ asset('assets/images/ban-2.png')}}" alt="">
+            </div>
+        </div>-->
+        </div>
+        <div class="service-bloc container d-flex justify-content-center mt-5">
+            <div class="bloc me-3 text-center col-3">
+                <div class="circl"><i class="fa-solid fa-brain"></i></div>
+                <h3>UI/UX </h3>
+                <h3>DESIGN</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="bloc me-3 text-center col-3">
+            <div class="circl"><i class="fa-solid fa-database"></i></div>
+                <h3>DATA</h3>
+                <h3>BASE</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="bloc text-center col-3">
+                <div class="circl"><i class="fa-solid fa-server"></i></div>
+                <h3>HOSTING</h3>
+                <h3>SEO</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- About -->
+    <section class=" my-lg-2">
+        <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
+            <h2 class="text-white">About Them
+            </h2>
+            <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
+                <i class="fa-solid fa-book-open"></i>
+                Explore All
+            </a>
         </div>
 
-        <div class="icon-container d-flex mt-5 ">
-            <div class="icon-item me-4 mb-4 ">
-                <img src="{{ asset('assets/images/aboutUs/1.svg') }}" alt="Icon 1" class="img-fluid">
+        <div class=" container d-flex  justify-content-between align-items-center flex-lg-column my-5">
+            <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
+                <div class="image-container col-lg-6">
+                    <img src="{{ asset('assets/images/aboutUs/about.jpg') }}" alt="About Us Image" class="img-fluid">
+                </div>
+                <div class="content-info">
+                    <p class="text-white">MILAV este o companie de dezvoltare software cu sediul în Moldova (Cahul), România. Ea lucrează în principal cu clienți străini și îi ajută să dezvolte soluții software care să le transforme ideile într-un produs digital gata.
+
+                        Unele dintre produsele create pentru clienții săi includ site-uri web corporative, magazine online, portaluri uriașe, aplicații web și pentru întreprinderi, aplicații mobile, dezvoltare full-stack și componente web reutilizabile.
+
+                        MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
+                    </p>
+                    <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">More info ---></a>
+                </div>
+
             </div>
-            <div class="icon-item me-4  mb-4">
-                <img src="{{ asset('assets/images/aboutUs/2.svg') }}" alt="Icon 2" class="img-fluid">
-            </div>
-            <div class="icon-item me-4  mb-4">
-                <img src="{{ asset('assets/images/aboutUs/3.svg') }}" alt="Icon 3" class="img-fluid">
-            </div>
-            <div class="icon-item  me-4 mb-4">
-                <img src="{{ asset('assets/images/aboutUs/4.svg') }}" alt="Icon 4" class="img-fluid">
+
+            <div class="icon-container d-flex mt-5 ">
+                <div class="icon-item me-4 mb-4 ">
+                    <img src="{{ asset('assets/images/aboutUs/1.svg') }}" alt="Icon 1" class="img-fluid">
+                </div>
+                <div class="icon-item me-4  mb-4">
+                    <img src="{{ asset('assets/images/aboutUs/2.svg') }}" alt="Icon 2" class="img-fluid">
+                </div>
+                <div class="icon-item me-4  mb-4">
+                    <img src="{{ asset('assets/images/aboutUs/3.svg') }}" alt="Icon 3" class="img-fluid">
+                </div>
+                <div class="icon-item  me-4 mb-4">
+                    <img src="{{ asset('assets/images/aboutUs/4.svg') }}" alt="Icon 4" class="img-fluid">
+                </div>
             </div>
         </div>
-    </div>
 
-</section>
+    </section>
 </div>
 
 <!-- End About Them -->
