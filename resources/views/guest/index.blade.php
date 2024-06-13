@@ -52,19 +52,19 @@
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-bullhorn frimeworck"></i></div>
                     <H4>Landing Page</H4>
                     <p>Landing Page-uri pentru produse, servicii, evenimente sau oferte promoționale.</p>
-                    <p>120<i class="fa-solid fa-euro-sign"></i></p>
+                    <!-- <p>120<i class="fa-solid fa-euro-sign"></i></p> -->
                 </div>
                 <div class="servicii me-3 text-center col-4 ">
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-building frimeworck"></i></div>
                     <H4>Site Web Corporativ</H4>
                     <p>Site web de prezentare a companiei. Afacerea ta merită să fie văzută în mediul online!</p>
-                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                    <!-- <p>350<i class="fa-solid fa-euro-sign"></i></p> -->
                 </div>
                 <div class="servicii me-3 text-center col-4">
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-book-atlas frimeworck"></i></div>
                     <H4>Site Web tip Catalog</H4>
                     <p>Site web tip catalog/prezentare produse fără posibilitatea de a achita online.</p>
-                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                    <!-- <p>350<i class="fa-solid fa-euro-sign"></i></p> -->
                 </div>
 
             </div>
@@ -73,19 +73,19 @@
                     <div class="shad mb-2 mt-2"><i class="fa-brands fa-usps frimeworck"></i></div>
                     <H4>Portal Web</H4>
                     <p>Portale web pentru site-uri de știri. Devin-o cea mai accesibilă sursă de informare în mediul online.</p>
-                    <p>120<i class="fa-solid fa-euro-sign"></i></p>
+                    <!-- <p>120<i class="fa-solid fa-euro-sign"></i></p> -->
                 </div>
                 <div class="servicii me-3 text-center col-4">
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-store frimeworck"></i></div>
                     <H4>Magazin online</H4>
                     <p>Magazine online integrate cu sisteme de plată - vinde orice, oriunde, oricând.</p>
-                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                    <!-- <p>350<i class="fa-solid fa-euro-sign"></i></p> -->
                 </div>
                 <div class="servicii me-3 text-center col-4">
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-blog frimeworck"></i></div>
                     <H4>Blog</H4>
                     <p>Bloguri personale sau tematice. Devin-o un scriitor mai bun sau un expert în domeniul tău.</p>
-                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                    <!-- <p>350<i class="fa-solid fa-euro-sign"></i></p> -->
                 </div>
 
             </div>
