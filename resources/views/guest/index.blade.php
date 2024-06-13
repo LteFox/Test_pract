@@ -5,7 +5,7 @@
 <div class="bg_image">
     <header>
         <div class="container align-items-center justify-content-center top_content d-flex mt-5">
-            <div class="col-lg-5">
+            <div class="col-lg-5 ">
                 <h1 class="text-center text-lg-centr text-white mb-5 header-title">
                     HELLO, YOU ARE IN THE RIGHT PLACE <br>
                 </h1>
@@ -46,8 +46,8 @@
             </div>
         </div>
 
-        <div class=" container d-flex  justify-content-between flex-lg-column my-5">
-            <div class="d-flex justify-content-between align-items-center">
+        <div class="contentservice container d-flex  justify-content-between flex-lg-column my-5">
+            <div class="catalog d-flex justify-content-between align-items-center">
                 <div class="servicii me-3 text-center col-4">
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-bullhorn frimeworck"></i></div>
                     <H4>Landing Page</H4>
@@ -68,7 +68,7 @@
                 </div>
 
             </div>
-            <div class="d-flex justify-content-between align-items-center mt-4">
+            <div class=" catalog d-flex justify-content-between align-items-center mt-4">
                 <div class="servicii me-3 text-center col-4">
                     <div class="shad mb-2 mt-2"><i class="fa-brands fa-usps frimeworck"></i></div>
                     <H4>Portal Web</H4>

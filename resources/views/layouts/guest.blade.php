@@ -41,8 +41,8 @@
                         </form>
                     </nav>
                     <div class="navbar-nav logaut">
-                        <a href="/login" class="nav-link active log-in "><i class="fa-solid fa-right-to-bracket me-3"></i>Log In</a>
-                        <a href="/register" class="nav-link active reg"><i class="fa-regular fa-address-card me-3"></i>Register</a>
+                        <a href="/login" class="nav-link btn active log-in d-flex text-align-center "><p><i class="fa-solid fa-right-to-bracket me-3"></i></p><p>Log In</p></a>
+                        <a href="/register" class="nav-link btn active reg"><i class="fa-regular fa-address-card me-3"></i>Register</a>
                     </div>
                     </div>
                     
@@ -54,41 +54,11 @@
     @yield('content')
 
 
-    <footer class="mt-5 text-white d-flex align-items-center justify-content-center  ">
-        <div class="d-flex flex-column">
-            <nav class="navbar navbar-expand-lg  " data-bs-theme="dark">
-                <div class="container ">
-                    <a class="navbar-brand" href="{{ route('guest.index') }}">
-                        <img src="{{ asset('assets/images/MilavLogoWhiteSmall2.png') }}" alt="Logo" class="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        </form>
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link active" href="#">About</a>
-                            <a class="nav-link active" href="#">Gallery</a>
-                            <a class="nav-link active" href="#">Contact us</a>
-                            <a href="/login" class="btn btn-bg-light text-white px-4 py-2 me-3">
-                                <i class=""></i>
-                                Log In
-                            </a>
-                            <a href="/register" class="btn btn-bg-dark border text-white px-4 py-2">
-                                <i class=""></i>
-                                Register
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div class="container footer-contact-section ">
-                <div class="phone">
-                    <hr class="line">
+    <footer class=" container mt-5 text-white d-flex align-items-center justify-content-center  ">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="cont-jos container footer-contact-section d-flex align-items-center justify-content-center">
+                <div class="phone ">
+                    <!-- <hr class="line"> -->
                     <svg version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
                         <g>
                             <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
@@ -103,7 +73,7 @@
                                          C60,47.739,52.646,44.247,42.117,43.007z" />
                         </g>
                     </svg>
-                    <hr class="line right">
+                    <!-- <hr class="line right"> -->
                     <div class="detail">
                         <span>Odorheiu Secuiesc<br>
                             II. Rákoczi Ferenc Street 84<br>
@@ -111,8 +81,8 @@
                     </div>
                 </div>
 
-                <div class="offices">
-                    <hr class="line">
+                <div class="offices ms-5">
+                    <!-- <hr class="line"> -->
                     <svg version="1.1" id="Capa_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
                         <g>
                             <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
@@ -127,15 +97,15 @@
                                          C60,47.739,52.646,44.247,42.117,43.007z" />
                         </g>
                     </svg>
-                    <hr class="line right">
+                    <!-- <hr class="line right"> -->
                     <div class="detail">
                         <span>Cahul <br>
                             B.P. Hașdeu Street 2 <br>
                             Rep. Moldova</span>
                     </div>
                 </div>
-                <div class="mail">
-                    <hr class="line">
+                <div class="mail ms-5">
+                    <!-- <hr class="line"> -->
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.874 511.874" style="enable-background:new 0 0 511.874 511.874;" xml:space="preserve">
                         <g>
                             <g>
@@ -168,38 +138,8 @@
                                 </g>
                             </g>
                         </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
                     </svg>
-                    <hr class="line right">
+                    <!-- <hr class="line right"> -->
                     <div class="detail">
                         <span>Contact Details: </span>
                         <a href="mailto:csatlos.sandor@milav.eu" target="_blank">csatlos.sandor@milav.eu</a>
