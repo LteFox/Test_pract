@@ -85,7 +85,7 @@
                     <div class="shad mb-2 mt-2"><i class="fa-solid fa-blog frimeworck"></i></div>
                     <H4>Blog</H4>
                     <p>Bloguri personale sau tematice. Devin-o un scriitor mai bun sau un expert în domeniul tău.</p>
-                    <!-- <p>350<i class="fa-solid fa-euro-sign"></i></p> -->
+                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
                 </div>
 
             </div>
