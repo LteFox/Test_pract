@@ -114,58 +114,8 @@
 }
 //Gallery
 /* Secțiunea Contact Us */
- .contact-us {
-    padding: 20px;
-  }
-  
-  .contact-info {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .address {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .phone {
-    font-weight: bold;
-  }
-  
-  .contact-form {
-    width: 822px;
-    margin: 0 auto;
-  }
-  
-  .contact-form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-bottom:20px;
-  }
-  
-  .contact-info-map {
-    float: right; 
-    margin-left: 20px;
-    margin-right: 0;
-  }
   .form{
     display: flex;
     flex-direction: row;
     color:white;
-  }
-  .contact-form-image{
-    float: right; 
-    margin-top: 70px;
-    margin-left: 96px;
-    margin-right: 0;
   }
