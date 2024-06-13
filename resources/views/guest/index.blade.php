@@ -90,7 +90,10 @@
 
             </div>
         </div>
-        <div class="swiper auctionsSwiper container">
+        
+    </section>
+</div>
+<div class="swiper auctionsSwiper container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><p><i class="fa-brands fa-laravel"></i></p></div>
                 <div class="swiper-slide"><p><i class="fa-brands fa-html5"></i></p></div>
@@ -100,9 +103,6 @@
                 <div class="swiper-slide"><p class="MySQL">MySQL</p></div>
             </div>
         </div>
-    </section>
-</div>
-
 <!-- End About Them -->
 <!-- Gallery -->
 <section class="collections my-5 py-5">
