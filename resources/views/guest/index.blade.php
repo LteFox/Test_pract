@@ -8,17 +8,11 @@
             <div class="col-lg-5">
                 <h1 class="text-center text-lg-centr text-white mb-5 header-title">
                     HELLO, YOU ARE IN THE RIGHT PLACE <br>
-                    <!-- <span class="text-site-gradient">NFTs</span> -->
                 </h1>
                 <p class="text-light mb-5 text-center text-lg-centr header-description">
                     If you expect your software to be worked with hand in hand with your best idea
                 </p>
             </div>
-            <!-- <div class="framer ">
-            <div class="bloc rounded">
-                <img src="{{ asset('assets/images/ban-2.png')}}" alt="">
-            </div>
-        </div>-->
         </div>
         <div class="service-bloc container d-flex justify-content-center mt-5">
             <div class="bloc me-3 text-center col-3">
@@ -28,7 +22,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="bloc me-3 text-center col-3">
-            <div class="circl"><i class="fa-solid fa-database"></i></div>
+                <div class="circl"><i class="fa-solid fa-database"></i></div>
                 <h3>DATA</h3>
                 <h3>BASE</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -44,60 +38,76 @@
     <!-- End Header -->
     <!-- About -->
     <section class=" my-lg-2">
-        <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-            <h2 class="text-white">About Them
-            </h2>
-            <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-                <i class="fa-solid fa-book-open"></i>
-                Explore All
-            </a>
-        </div>
-
-        <div class=" container d-flex  justify-content-between align-items-center flex-lg-column my-5">
-            <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
-                <div class="image-container col-lg-6">
-                    <img src="{{ asset('assets/images/aboutUs/about.jpg') }}" alt="About Us Image" class="img-fluid">
-                </div>
-                <div class="content-info">
-                    <p class="text-white">MILAV este o companie de dezvoltare software cu sediul în Moldova (Cahul), România. Ea lucrează în principal cu clienți străini și îi ajută să dezvolte soluții software care să le transforme ideile într-un produs digital gata.
-
-                        Unele dintre produsele create pentru clienții săi includ site-uri web corporative, magazine online, portaluri uriașe, aplicații web și pentru întreprinderi, aplicații mobile, dezvoltare full-stack și componente web reutilizabile.
-
-                        MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
-                    </p>
-                    <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">More info ---></a>
-                </div>
-
-            </div>
-
-            <div class="icon-container d-flex mt-5 ">
-                <div class="icon-item me-4 mb-4 ">
-                    <img src="{{ asset('assets/images/aboutUs/1.svg') }}" alt="Icon 1" class="img-fluid">
-                </div>
-                <div class="icon-item me-4  mb-4">
-                    <img src="{{ asset('assets/images/aboutUs/2.svg') }}" alt="Icon 2" class="img-fluid">
-                </div>
-                <div class="icon-item me-4  mb-4">
-                    <img src="{{ asset('assets/images/aboutUs/3.svg') }}" alt="Icon 3" class="img-fluid">
-                </div>
-                <div class="icon-item  me-4 mb-4">
-                    <img src="{{ asset('assets/images/aboutUs/4.svg') }}" alt="Icon 4" class="img-fluid">
-                </div>
+        <div class="container title d-flex flex-column justify-content-center align-items-center text-center flex-lg-row my-5 mb-0">
+            <div class="col-6">
+                <h2 class="text-white">Tipuri de site-uri web
+                </h2>
+                <p class="text-white">Suntem o echipa de profesionisti cu capacitățile necesare pentru a crea orice proiect, indiferent de complexitatea acestuia începând cu site-uri simple corporative și finisând cu magazine online integrate cu sisteme de plată. Mai jos am descris pe scurt tipurile standarte de website-uri pe care putem sa le elaboram pentru dvs.</p>
             </div>
         </div>
 
+        <div class=" container d-flex  justify-content-between flex-lg-column my-5">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="servicii me-3 text-center col-4">
+                    <div class="shad mb-2 mt-2"><i class="fa-solid fa-bullhorn frimeworck"></i></div>
+                    <H4>Landing Page</H4>
+                    <p>Landing Page-uri pentru produse, servicii, evenimente sau oferte promoționale.</p>
+                    <p>120<i class="fa-solid fa-euro-sign"></i></p>
+                </div>
+                <div class="servicii me-3 text-center col-4 ">
+                    <div class="shad mb-2 mt-2"><i class="fa-solid fa-building frimeworck"></i></div>
+                    <H4>Site Web Corporativ</H4>
+                    <p>Site web de prezentare a companiei. Afacerea ta merită să fie văzută în mediul online!</p>
+                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                </div>
+                <div class="servicii me-3 text-center col-4">
+                    <div class="shad mb-2 mt-2"><i class="fa-solid fa-book-atlas frimeworck"></i></div>
+                    <H4>Site Web tip Catalog</H4>
+                    <p>Site web tip catalog/prezentare produse fără posibilitatea de a achita online.</p>
+                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+                <div class="servicii me-3 text-center col-4">
+                    <div class="shad mb-2 mt-2"><i class="fa-brands fa-usps frimeworck"></i></div>
+                    <H4>Portal Web</H4>
+                    <p>Portale web pentru site-uri de știri. Devin-o cea mai accesibilă sursă de informare în mediul online.</p>
+                    <p>120<i class="fa-solid fa-euro-sign"></i></p>
+                </div>
+                <div class="servicii me-3 text-center col-4">
+                    <div class="shad mb-2 mt-2"><i class="fa-solid fa-store frimeworck"></i></div>
+                    <H4>Magazin online</H4>
+                    <p>Magazine online integrate cu sisteme de plată - vinde orice, oriunde, oricând.</p>
+                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                </div>
+                <div class="servicii me-3 text-center col-4">
+                    <div class="shad mb-2 mt-2"><i class="fa-solid fa-blog frimeworck"></i></div>
+                    <H4>Blog</H4>
+                    <p>Bloguri personale sau tematice. Devin-o un scriitor mai bun sau un expert în domeniul tău.</p>
+                    <p>350<i class="fa-solid fa-euro-sign"></i></p>
+                </div>
+
+            </div>
+        </div>
+        
     </section>
 </div>
-
+<div class="swiper auctionsSwiper container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><p><i class="fa-brands fa-laravel"></i></p></div>
+                <div class="swiper-slide"><p><i class="fa-brands fa-html5"></i></p></div>
+                <div class="swiper-slide"><p><i class="fa-brands fa-css3-alt"></i></p></div>
+                <div class="swiper-slide"><p><i class="fa-brands fa-square-js"></i></p></div>
+                <div class="swiper-slide"><p><i class="fa-brands fa-php"></i></p></div>
+                <div class="swiper-slide"><p class="MySQL">MySQL</p></div>
+            </div>
+        </div>
 <!-- End About Them -->
 <!-- Gallery -->
 <section class="collections my-5 py-5">
     <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
         <h2 class="text-white text-center text-lg-start">Gallery</h2>
-        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-            <i class="fa-regular fa-images"></i>
-            Explore All
-        </a>
     </div>
     <div class="container">
         <div class="row">
@@ -138,7 +148,6 @@
                                     <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -171,59 +180,6 @@
 <!-- End Gallery -->
 <!-- Contact Them -->
 <section class=" my-5 py-5">
-    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
-        <h2 class="text-white text-center text-lg-start">Contact Them</h2>
-        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-            <i class="fa-regular fa-images"></i>
-            Explore All
-        </a>
-    </div>
-    <div class=" container contact-info">
-        <div>
-            <h3 style="color: white;">Vizitați una dintre locații în Cahul, sau contactați</h3>
-            <p style="color: white;">
-                <span class="address">Sediul central:</span><br>
-                <span class="address">Cahul
-                    B.P. Hașdeu Street 2
-                    Rep. Moldova</span><br>
-                <span class="address">csatlos.sandor@milav.eu</span><br>
-                <span class="phone"><i class="fas fa-phone"></i> Telefon: +40 747 191 825</span>
-            </p>
-        </div>
-        <div class="contact-info-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1030.4945393529008!2d28.18743321953205!3d45.900948652548735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65db775628177%3A0x3eb9667f8dbcdc13!2sMILAV%20IT!5e0!3m2!1sro!2s!4v1717274391390!5m2!1sro!2s" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-
-    <div class=" container form">
-        <div>
-            <form action="" method="post" class="contact-form">
-                <h3 style="color: white;">Scrieți un mesaj</h3>
-                <label for="name">Numele dumneavoastră</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Adresa de e-mail</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="subject">Subiect</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label for="message">Mesajul dumneavoastră</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-                    <i class=""></i>
-                    Submit
-                </a>
-            </form>
-        </div>
-        <div class="contact-form-image">
-            <img src="{{ asset('assets/images/contact/contact1.png') }}" alt="Imagine de contact">
-        </div>
-
-    </div>
-
-
-
 </section>
 <!-- End Contact Us -->
 @endsection
