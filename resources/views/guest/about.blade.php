@@ -14,8 +14,14 @@
                     <!-- <p class="text-white text-light mb-5 text-center text-lg-centr header-description">Ai nevoie de un site web? Noi te putem ajuta! Elaborăm site-uri web conform celor mai bune practici de web design și programare astfel încât produsul final să coresundă așteptărilor clienților noștri iar utilizatorilor să le oferim o experineță excelentă de navigare.</p>                    -->
                 </div>
             </div>
-            <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-                <div class="col-lg-5">
+            
+        </header>
+    </div>
+
+
+<section class=" my-lg-2">
+<div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
+                <div class="col-lg-7">
                     <div>
                         <h2 class="text-white mb-3 ">
                             Despre Milav <br>
@@ -33,20 +39,17 @@
                         </a>
                     </div>
                 </div>
-                <div class="image_about">
+                <!-- <div class="image_about">
                     <img src="{{ asset('assets/images/bg-3_about.jpg') }}" alt="">
-                </div>
+                </div> -->
 
-            </div>
-        </header>
-    </div>
-</div>
-
-<section class=" my-lg-2">
+            </div> 
     <div class="container title d-flex flex-column justify-content-start align-items-center flex-lg-row my-5 mb-0 about_content">
-        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+      
+    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+        
             <div class="list">
-                <h2>Unele dintre produsele create pentru clienți</h2>
+                <h4>Unele dintre produsele create pentru clienți</h4>
                 <ul>
                     <li><span>Site-uri web corporative</span></li>
                     <li><span>Magazine online</span></li>
@@ -63,6 +66,7 @@
     </div>
 
 </section>
+</div>
 
 
 <!-- End About Them -->
