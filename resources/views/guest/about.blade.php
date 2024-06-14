@@ -66,23 +66,18 @@
     <div class="d-flex">
         <div class=" col-4 me-4">
             <div class="card bg-card radius p-4">
-                <img src="{{ asset('assets/images/section_2/card-1.jpg') }}" class="card-img-top" alt="Metaverse">
+                <img src="https://static.independent.co.uk/2023/05/12/23/newFile.jpg?width=1200&height=1200&fit=crop" class="card-img-top" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
                         <div class="d-flex flex-column justify-content-center">
-                            <h5 class="text-white mb-0">Metaverse</h5>
-                            <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
+                            <h5 class="text-white mb-0">Developer</h5>
+                            <p class="text-secondary mb-0"><span class="text-white">Johny Deep</span></p>
                         </div>
                     </div>
                     <div class="d-flex mt-3">
-                        <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                            <i class="fa-solid fa-stopwatch"></i>
-                            12d 13h 56m
-                        </span>
-
                         <button class="btn card-buton text-white p-3 flex-fill place-bid-btn">
                             <i class="fa-solid fa-crown text-center"></i>
-                            Place Bid
+                            More info...
                         </button>
                     </div>
                 </div>
@@ -91,24 +86,19 @@
         <div></div>
         <div class=" col-4 me-4">
             <div class="card bg-card radius p-4">
-                <img src="{{ asset('assets/images/section_2/card-2.jpg') }}" class="card-img-top" alt="Metaverse">
+                <img src="https://pyxis.nymag.com/v1/imgs/8d7/338/2539332c5b6c02efa94f6c181042afab9e-27-terry-crews.rsquare.w330.jpg" class="card-img-top" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
                         <div class="d-flex flex-column justify-content-center">
-                            <h5 class="text-white mb-0">Metaverse</h5>
-                            <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
+                            <h5 class="text-white mb-0">Designer</h5>
+                            <p class="text-secondary mb-0"><span class="text-white">Terry Crews</span></p>
                         </div>
                     </div>
 
                     <div class="d-flex mt-3">
-                        <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                            <i class="fa-solid fa-stopwatch"></i>
-                            12d 13h 56m
-                        </span>
-
                         <button class="btn card-buton text-white p-3 flex-fill place-bid-btn">
                             <i class="fa-solid fa-crown text-center"></i>
-                            Place Bid
+                            More info...
                         </button>
                     </div>
                 </div>
@@ -116,24 +106,19 @@
         </div>
         <div class=" col-4">
             <div class="card bg-card radius p-4">
-                <img src="{{ asset('assets/images/section_2/card-3.jpg') }}" class="card-img-top round" alt="Metaverse">
+                <img src="https://del.h-cdn.co/assets/17/07/3200x3200/square-1487365300-delish-ryan-gosling-getty-pascal.jpg" class="card-img-top round" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
                         <div class="d-flex flex-column justify-content-center">
-                            <h5 class="text-white mb-0">Metaverse</h5>
-                            <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
+                            <h5 class="text-white mb-0">Developer</h5>
+                            <p class="text-secondary mb-0"><span class="text-white">Ryan Gosling</span></p>
                         </div>
                     </div>
 
                     <div class="d-flex mt-3">
-                        <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
-                            <i class="fa-solid fa-stopwatch"></i>
-                            12d 13h 56m
-                        </span>
-
                         <button class="btn card-buton text-white p-3 flex-fill place-bid-btn">
                             <i class="fa-solid fa-crown text-center"></i>
-                            Place Bid
+                            More info...
                         </button>
                     </div>
                 </div>

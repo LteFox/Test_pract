@@ -30,7 +30,7 @@
                     <div class="navbar-nav z-3 menu">
                         <a class="nav-link active" aria-current="page" href="{{ route('guest.index') }}">Home</a>
                         <a class="nav-link active" href="{{ route('guest.about') }}">About</a>
-                        <a class="nav-link active" href="{{ route('guest.gallery') }}">Gallery</a>
+                        <a class="nav-link active" href="{{ route('guest.gallery') }}">Portfolio</a>
                         <a class="nav-link active" href="{{ route('guest.contact') }}">Contact us</a>
                     </div>
                     <div class="d-flex">

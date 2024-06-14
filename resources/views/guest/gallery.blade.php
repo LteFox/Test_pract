@@ -32,12 +32,12 @@
             <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <img src="../images/bg-1.1.jpg" alt="">
+                      <img src="{{ asset('assets/images/ver-3.png') }}" alt="">
                   </div>
                 </div>
                 <div class="data">
                   <div class="img">
-                    <img src="../images/section_3/avatar/Avatar.png" alt="">
+                    <img src="https://cdn2.iconfinder.com/data/icons/super-hero/154/batman-comics-hero-avatar-head-mask-512.png" alt="">
                   </div>
                   <div class="text">
                     <div class="text_m">CSS Theme Switch</div>

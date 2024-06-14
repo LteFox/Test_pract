@@ -108,7 +108,7 @@
 <!-- Gallery -->
 <section class="collections my-5 py-5">
     <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
-        <h2 class="text-white text-center text-lg-start">Gallery</h2>
+        <h2 class="text-white text-center text-lg-start">Portfolio</h2>
     </div>
     <div class="container">
         <div class="row">
