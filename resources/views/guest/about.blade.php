@@ -7,47 +7,44 @@
 
     <div class="top_section">
         <header>
-            <div class="container align-items-center justify-content-center top_content d-flex mt-5">
+            <div class="container align-items-center justify-content-center top_content d-flex mt-5 about-titl">
                 <div class="col-lg-8 ">
-                <h2 class="text-white text-center text-lg-centr text-white mb-5 header-title">Elaborare website Moldova
-                </h2>
-                <p class="text-white text-light mb-5 text-center text-lg-centr header-description">Ai nevoie de un site web? Noi te putem ajuta! Elaborăm site-uri web conform celor mai bune practici de web design și programare astfel încât produsul final să coresundă așteptărilor clienților noștri iar utilizatorilor să le oferim o experineță excelentă de navigare.</p>                   
+                    <h1 class="text-white text-center text-lg-centr text-white mb-5 header-title">About Us
+                    </h1>
+                    <!-- <p class="text-white text-light mb-5 text-center text-lg-centr header-description">Ai nevoie de un site web? Noi te putem ajuta! Elaborăm site-uri web conform celor mai bune practici de web design și programare astfel încât produsul final să coresundă așteptărilor clienților noștri iar utilizatorilor să le oferim o experineță excelentă de navigare.</p>                    -->
                 </div>
+            </div>
+            <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="text-white mb-3 ">
+                            Despre Milav <br>
+                        </h2>
+                        <p class="text-light">
+                            MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
+                        </p>
+                    </div>
+                    <div class=" d-flex butonss">
+                        <a href="" class="btn active text-align-center text-center">
+                            <p class="text-white mb-0 text-center">Contacteazăne</p>
+                        </a>
+                        <a href="" class=" btn active ">
+                            <p class="text-white">Portfoliu</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="image_about">
+                    <img src="{{ asset('assets/images/bg-3_about.jpg') }}" alt="">
+                </div>
+
             </div>
         </header>
     </div>
 </div>
 
 <section class=" my-lg-2">
-    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-        <div class="col-lg-5">
-            <div>
-                <h2 class="text-white mb-3 ">
-                        Despre Milav <br>
-                    </h2>
-                    <p class="text-light">
-                        MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
-                    </p>
-            </div>
-            <div class=" d-flex butonss">
-                <a href="" class="btn active text-align-center text-center">
-                    <p class="text-white mb-0 text-center">Contacteazăne</p>
-                </a>
-                <a href="" class=" btn active ">
-                    <p class="text-white">Portfoliu</p>
-                </a>
-            </div>
-        </div>
-        <div class="image_about">
-            <img src="{{ asset('assets/images/bg-3_about.jpg') }}" alt="">
-        </div>
-
-    </div>
-    <div class="container title d-flex flex-column justify-content-start align-items-center flex-lg-row my-5 mb-0">
+    <div class="container title d-flex flex-column justify-content-start align-items-center flex-lg-row my-5 mb-0 about_content">
         <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-            <!-- <p class="text-white">MILAV este o companie de dezvoltare software cu sediul în Moldova (Cahul), România. Ea lucrează în principal cu clienți străini și îi ajută să dezvolte soluții software care să le transforme ideile într-un produs digital gata.
-                <br> MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
-            </p> -->
             <div class="list">
                 <h2>Unele dintre produsele create pentru clienți</h2>
                 <ul>
@@ -61,7 +58,7 @@
             </div>
         </div>
         <div class="col-12 col-lg-6">
-            <img src="{{ asset('assets/images/img1-1.svg') }}" alt="About Us Image" class="img-fluid">
+            <img src="{{ asset('assets/images/img1-1_.svg') }}" alt="About Us Image" class="img-fluid .about_img">
         </div>
     </div>
 
@@ -110,7 +107,7 @@
                             <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
                         </div>
                     </div>
-                    
+
                     <div class="d-flex mt-3">
                         <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
                             <i class="fa-solid fa-stopwatch"></i>
@@ -135,7 +132,7 @@
                             <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
                         </div>
                     </div>
-                   
+
                     <div class="d-flex mt-3">
                         <span class="btn-bg-secondary w-auto p-3 me-2 text-white text-center rounded flex-fill">
                             <i class="fa-solid fa-stopwatch"></i>
