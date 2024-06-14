@@ -195,14 +195,17 @@
 //Gallery
 /* CodePen Card */
 
-.card {
+.card-portfolio {
     width: 20em;
     height: 15em;
-    background-image: url("https://i.pinimg.com/564x/0c/c1/96/0cc1969488d9cae85734a60c29efc876.jpg");
+    background-color: #54617a;
+    // background-image: url("https://i.pinimg.com/564x/0c/c1/96/0cc1969488d9cae85734a60c29efc876.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 7px;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
   }
   
   .data {
@@ -361,6 +364,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .card_content img{
+    // max-width: 200px;
+    position: inherit;
+    width: 100%;
+    height: 100%;
   }
   
   /* The switch - the box around the slider */
