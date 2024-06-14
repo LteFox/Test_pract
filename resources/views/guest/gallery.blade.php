@@ -1,72 +1,94 @@
 @extends('layouts.guest')
 
 @section('content')
-<!-- Header -->
-<div class="bg_image">
-<header>
-    <!-- <div class="container align-items-center justify-content-between top_content">
-        <div class="col-lg-6">
-            <h1 class="text-center text-lg-start text-white mb-5 header-title">
-                !-- <span class="text-site-gradient">NFTs</span> --
-            </h1>
-            <p class="text-light mb-5 text-center text-lg-start header-description">
-            </p>
-            <div class="d-flex justify-content-center">
-                <a href="/login" class="btn btn-bg-light btn-lg text-white px-4 py-2 me-3">
-                    <i class=""></i>
-                    Log In
-                </a>
-                <a href="/register" class="btn btn-bg-dark border btn-lg  text-white px-4 py-2">
-                    <i class=""></i>
-                    Register
-                </a>
-            </div>
-        </div>
-    </div> -->
-</header>
-
-<!-- End Header -->
-<!-- About -->
 <section class=" my-lg-2">
-    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-        <!-- <h2 class="text-white">About Them -->
-        </h2>
-        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-            <i class="fa-solid fa-book-open"></i>
-            Explore All
-        </a>
-    </div>
 
-    <div class=" container d-flex  justify-content-between align-items-center flex-lg-column my-5">
+    <div class=" container d-flex  justify-content-between flex-lg-column my-5">
         <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
-            <div class="image-container col-lg-6">
-                <img src="{{ asset('assets/images/aboutUs/about.jpg') }}" alt="About Us Image" class="img-fluid">
-            </div>
-            <div class="content-info">
-                <p class="text-white">MILAV este o companie de dezvoltare software cu sediul în Moldova (Cahul), România. Ea lucrează în principal cu clienți străini și îi ajută să dezvolte soluții software care să le transforme ideile într-un produs digital gata.
+            <div class="main">
+                <div class="card">
+                  <div class="card_content">
+                      <img src="../images/bg-1.1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="data">
+                  <div class="img">
+                    <img src="../images/section_3/avatar/Avatar.png" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="text_m">CSS Theme Switch</div>
+                    <div class="text_s">Praashoo7</div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="likes">
+                    <svg class="likes_svg" viewBox="-2 0 105 92"><path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71Z"></path></svg><span class="likes_text">22</span>
+                  </div>
+                  <div class="comments">
+                    <svg class="comments_svg" viewBox="-405.9 238 56.3 54.8" title="Comment"><path d="M-391 291.4c0 1.5 1.2 1.7 1.9 1.2 1.8-1.6 15.9-14.6 15.9-14.6h19.3c3.8 0 4.4-.8 4.4-4.5v-31.1c0-3.7-.8-4.5-4.4-4.5h-47.4c-3.6 0-4.4.9-4.4 4.5v31.1c0 3.7.7 4.4 4.4 4.4h10.4v13.5z"></path></svg><span class="comments_text">12</span>
+                  </div>
+                  <div class="views">
+                    <svg class="views_svg" viewBox="0 0 30.5 16.5" title="Views"><path d="M15.3 0C8.9 0 3.3 3.3 0 8.3c3.3 5 8.9 8.3 15.3 8.3s12-3.3 15.3-8.3C27.3 3.3 21.7 0 15.3 0zm0 14.5c-3.4 0-6.2-2.8-6.2-6.2C9 4.8 11.8 2 15.3 2c3.4 0 6.2 2.8 6.2 6.2 0 3.5-2.8 6.3-6.2 6.3z"></path></svg><span class="views_text">332</span>
+                  </div>
+                </div>
+              </div>
 
-                    Unele dintre produsele create pentru clienții săi includ site-uri web corporative, magazine online, portaluri uriașe, aplicații web și pentru întreprinderi, aplicații mobile, dezvoltare full-stack și componente web reutilizabile.
+              <div class="main">
+                <div class="card">
+                  <div class="card_content">
+                      <img src="../images/bg-1.1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="data">
+                  <div class="img">
+                    <img src="../images/section_3/avatar/Avatar.png" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="text_m">CSS Theme Switch</div>
+                    <div class="text_s">Praashoo7</div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="likes">
+                    <svg class="likes_svg" viewBox="-2 0 105 92"><path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71Z"></path></svg><span class="likes_text">22</span>
+                  </div>
+                  <div class="comments">
+                    <svg class="comments_svg" viewBox="-405.9 238 56.3 54.8" title="Comment"><path d="M-391 291.4c0 1.5 1.2 1.7 1.9 1.2 1.8-1.6 15.9-14.6 15.9-14.6h19.3c3.8 0 4.4-.8 4.4-4.5v-31.1c0-3.7-.8-4.5-4.4-4.5h-47.4c-3.6 0-4.4.9-4.4 4.5v31.1c0 3.7.7 4.4 4.4 4.4h10.4v13.5z"></path></svg><span class="comments_text">12</span>
+                  </div>
+                  <div class="views">
+                    <svg class="views_svg" viewBox="0 0 30.5 16.5" title="Views"><path d="M15.3 0C8.9 0 3.3 3.3 0 8.3c3.3 5 8.9 8.3 15.3 8.3s12-3.3 15.3-8.3C27.3 3.3 21.7 0 15.3 0zm0 14.5c-3.4 0-6.2-2.8-6.2-6.2C9 4.8 11.8 2 15.3 2c3.4 0 6.2 2.8 6.2 6.2 0 3.5-2.8 6.3-6.2 6.3z"></path></svg><span class="views_text">332</span>
+                  </div>
+                </div>
+              </div>
 
-                    MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
-                </p>
-                <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">More info ---></a>
-            </div>
+              <div class="main">
+                <div class="card">
+                  <div class="card_content">
+                      <img src="../images/bg-1.1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="data">
+                  <div class="img">
+                    <img src="../images/section_3/avatar/Avatar.png" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="text_m">CSS Theme Switch</div>
+                    <div class="text_s">Praashoo7</div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="likes">
+                    <svg class="likes_svg" viewBox="-2 0 105 92"><path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71Z"></path></svg><span class="likes_text">22</span>
+                  </div>
+                  <div class="comments">
+                    <svg class="comments_svg" viewBox="-405.9 238 56.3 54.8" title="Comment"><path d="M-391 291.4c0 1.5 1.2 1.7 1.9 1.2 1.8-1.6 15.9-14.6 15.9-14.6h19.3c3.8 0 4.4-.8 4.4-4.5v-31.1c0-3.7-.8-4.5-4.4-4.5h-47.4c-3.6 0-4.4.9-4.4 4.5v31.1c0 3.7.7 4.4 4.4 4.4h10.4v13.5z"></path></svg><span class="comments_text">12</span>
+                  </div>
+                  <div class="views">
+                    <svg class="views_svg" viewBox="0 0 30.5 16.5" title="Views"><path d="M15.3 0C8.9 0 3.3 3.3 0 8.3c3.3 5 8.9 8.3 15.3 8.3s12-3.3 15.3-8.3C27.3 3.3 21.7 0 15.3 0zm0 14.5c-3.4 0-6.2-2.8-6.2-6.2C9 4.8 11.8 2 15.3 2c3.4 0 6.2 2.8 6.2 6.2 0 3.5-2.8 6.3-6.2 6.3z"></path></svg><span class="views_text">332</span>
+                  </div>
+                </div>
+              </div>
 
-        </div>
-
-        <div class="icon-container d-flex mt-5 ">
-            <div class="icon-item me-4 mb-4 ">
-                <img src="{{ asset('assets/images/aboutUs/1.svg') }}" alt="Icon 1" class="img-fluid">
-            </div>
-            <div class="icon-item me-4  mb-4">
-                <img src="{{ asset('assets/images/aboutUs/2.svg') }}" alt="Icon 2" class="img-fluid">
-            </div>
-            <div class="icon-item me-4  mb-4">
-                <img src="{{ asset('assets/images/aboutUs/3.svg') }}" alt="Icon 3" class="img-fluid">
-            </div>
-            <div class="icon-item  me-4 mb-4">
-                <img src="{{ asset('assets/images/aboutUs/4.svg') }}" alt="Icon 4" class="img-fluid">
-            </div>
         </div>
     </div>
 
@@ -74,70 +96,5 @@
 </div>
 
 <!-- End About Them -->
-<!-- Gallery -->
-<section class="collections my-5 py-5">
-    <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
-        <h2 class="text-white text-center text-lg-start">Gallery</h2>
-        <a href="#" class="btn btn-bg-light text-white px-4 py-2 me-3">
-            <i class="fa-regular fa-images"></i>
-            Explore All
-        </a>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card bg-card radius">
-                    <div class="card-body">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-card radius">
-                    <div class="card-body">
-                        <div class="d-flex flex-wrap">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                        </div>
-                        <div class="d-flex justify-content-between mt-3">
-                            <div class="d-flex author flex-row align-items-center">
-                                <div class="d-flex flex-column justify-content-center">
-                                    <h5 class="text-white mb-0">Metaverse</h5>
-                                    <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-card radius">
-                    <div class="card-body">
-                        <div class="d-flex flex-wrap">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                            <img src="{{ asset('assets/images/gallery/im1.png') }}" class="w-50 p-2 radius" alt="Metaverse">
-                        </div>
-                        <div class="d-flex justify-content-between mt-3">
-                            <div class="d-flex author flex-row align-items-center">
-
-                                <div class="d-flex flex-column justify-content-center">
-                                    <h5 class="text-white mb-0">Metaverse</h5>
-                                    <p class="text-secondary mb-0">Created by <span class="text-white">John Doe</span></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Gallery -->
-<!-- End Contact Us -->
 @endsection
