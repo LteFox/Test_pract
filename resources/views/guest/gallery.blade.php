@@ -6,7 +6,7 @@
     <div class=" container d-flex  justify-content-between flex-lg-column my-5">
         <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
             <div class="main">
-                <div class="card">
+                <div class="card-portfolio">
                   <div class="card_content">
                       <img src="../images/bg-1.1.jpg" alt="">
                   </div>
@@ -34,7 +34,7 @@
               </div>
 
               <div class="main">
-                <div class="card">
+                <div class="card-portfolio">
                   <div class="card_content">
                       <img src="../images/bg-1.1.jpg" alt="">
                   </div>
@@ -62,7 +62,7 @@
               </div>
 
               <div class="main">
-                <div class="card">
+                <div class="card-portfolio">
                   <div class="card_content">
                       <img src="../images/bg-1.1.jpg" alt="">
                   </div>

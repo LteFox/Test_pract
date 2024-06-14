@@ -74,7 +74,7 @@
     </div>
     <div class="d-flex">
         <div class=" col-4 me-4">
-            <div class="card-portfolio bg-card radius p-4">
+            <div class="card bg-card radius p-4">
                 <img src="{{ asset('assets/images/section_2/card-1.jpg') }}" class="card-img-top" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
@@ -99,7 +99,7 @@
         </div>
         <div></div>
         <div class=" col-4 me-4">
-            <div class="card-portfolio bg-card radius p-4">
+            <div class="card bg-card radius p-4">
                 <img src="{{ asset('assets/images/section_2/card-2.jpg') }}" class="card-img-top" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
@@ -124,7 +124,7 @@
             </div>
         </div>
         <div class=" col-4">
-            <div class="card-portfolio bg-card radius p-4">
+            <div class="card bg-card radius p-4">
                 <img src="{{ asset('assets/images/section_2/card-3.jpg') }}" class="card-img-top round" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
