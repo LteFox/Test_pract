@@ -3,14 +3,11 @@
 @section('content')
 <!-- Header -->
 <div class="about">
-    <!-- About -->
-
     <div class="top_section">
         <header>
             <div class="container align-items-center justify-content-center top_content d-flex mt-5 about-titl">
                 <div class="col-lg-8 ">
-                    <h1 class="text-white text-center text-lg-centr text-white mb-5 header-title">About Us
-                    </h1>
+                    <h1 class="text-white text-center text-lg-centr text-white mb-5 header-title">About Us</h1>
                 </div>
             </div>
         </header>
@@ -52,13 +49,9 @@
             <img src="{{ asset('assets/images/img1-1_.svg') }}" alt="About Us Image" class="img-fluid .about_img">
         </div>
     </div>
-
 </section>
 
-
-
-<!-- End About Them -->
-<!-- Gallery -->
+<!-- Team Members -->
 <section class="container collections my-2 py-5">
     <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
         <h2 class="text-white text-center text-lg-start">Team members</h2>

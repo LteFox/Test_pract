@@ -2,31 +2,18 @@
 
 @section('content')
 <div class="about">
-    <!-- About -->
-
     <div class="top_section">
         <header>
             <div class="container align-items-center justify-content-center top_content d-flex mt-5 about-titl">
                 <div class="col-lg-8 ">
-                    <h1 class="text-white text-center text-lg-centr text-white mb-5 header-title">Portfolio
-                    </h1>
-                    <!-- <p class="text-white text-light mb-5 text-center text-lg-centr header-description">Ai nevoie de un site web? Noi te putem ajuta! Elaborăm site-uri web conform celor mai bune practici de web design și programare astfel încât produsul final să coresundă așteptărilor clienților noștri iar utilizatorilor să le oferim o experineță excelentă de navigare.</p>                    -->
+                    <h1 class="text-white text-center text-lg-centr text-white mb-5 header-title">Portfolio</h1>
                 </div>
             </div>
-            <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-                <div class="col-lg-8">
-                    
-                </div>
-                <!-- <div class="image_about">
-                    <img src="{{ asset('assets/images/bg-3_about.jpg') }}" alt="">
-                </div> -->
-            </div> 
         </header>
     </div>
-    </div>
+  </div>
 
 <section class=" my-lg-2">
-
     <div class=" container d-flex  justify-content-between flex-lg-column my-5">
         <div class="  d-flex  justify-content-between align-items-center flex-lg-row my-5">
             <div class="main">
@@ -118,7 +105,5 @@
 
 </section>
 </div>
-
-<!-- End About Them -->
 
 @endsection

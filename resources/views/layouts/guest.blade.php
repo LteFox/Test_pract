@@ -58,7 +58,6 @@
         <div class="d-flex flex-column align-items-center justify-content-center">
             <div class="cont-jos container footer-contact-section d-flex align-items-center justify-content-center">
                 <div class="phone ">
-                    <!-- <hr class="line"> -->
                     <svg version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
                         <g>
                             <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
@@ -73,7 +72,6 @@
                                          C60,47.739,52.646,44.247,42.117,43.007z" />
                         </g>
                     </svg>
-                    <!-- <hr class="line right"> -->
                     <div class="detail">
                         <span>Odorheiu Secuiesc<br>
                             II. Rákoczi Ferenc Street 84<br>
@@ -82,7 +80,6 @@
                 </div>
 
                 <div class="offices ms-5">
-                    <!-- <hr class="line"> -->
                     <svg version="1.1" id="Capa_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
                         <g>
                             <path d="M30,26c3.86,0,7-3.141,7-7s-3.14-7-7-7s-7,3.141-7,7S26.14,26,30,26z M30,14c2.757,0,5,2.243,5,5s-2.243,5-5,5
@@ -97,7 +94,6 @@
                                          C60,47.739,52.646,44.247,42.117,43.007z" />
                         </g>
                     </svg>
-                    <!-- <hr class="line right"> -->
                     <div class="detail">
                         <span>Cahul <br>
                             B.P. Hașdeu Street 2 <br>
@@ -105,7 +101,6 @@
                     </div>
                 </div>
                 <div class="mail ms-5">
-                    <!-- <hr class="line"> -->
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.874 511.874" style="enable-background:new 0 0 511.874 511.874;" xml:space="preserve">
                         <g>
                             <g>
@@ -139,7 +134,6 @@
                             </g>
                         </g>
                     </svg>
-                    <!-- <hr class="line right"> -->
                     <div class="detail">
                         <span>Contact Details: </span>
                         <a href="mailto:csatlos.sandor@milav.eu" target="_blank">csatlos.sandor@milav.eu</a>
