@@ -16,14 +16,7 @@
             </div>
             <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
                 <div class="col-lg-8">
-                    <div class=" d-flex butonss">
-                        <a href="" class="btn active text-align-center text-center">
-                            <p class="text-white mb-0 text-center">Contacteazăne</p>
-                        </a>
-                        <a href="" class=" btn active ">
-                            <p class="text-white">Portfoliu</p>
-                        </a>
-                    </div>
+                    
                 </div>
                 <!-- <div class="image_about">
                     <img src="{{ asset('assets/images/bg-3_about.jpg') }}" alt="">
@@ -34,11 +27,9 @@
     </div>
 
 <section class=" my-lg-2">
-
     <div class="container title d-flex flex-column justify-content-start align-items-center flex-lg-row my-5 mb-0 about_content">
-      
     <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-    <div>
+    <div    class="title-top">
                         <h2 class="text-white mb-3 ">
                             Despre Milav <br>
                         </h2>
@@ -56,6 +47,14 @@
                     <li><span>Aplicații mobile</span></li>
                     <li><span>Dezvoltare full-stack și componente web reutilizabile</span></li>
                 </ul>
+            </div>
+            <div class=" d-flex butonss">
+                <a href="" class="btn active text-align-center text-center">
+                    <p class="text-white mb-0 text-center">Contacteazăne</p>
+                </a>
+                <a href="" class=" btn active ">
+                    <p class="text-white">Portfoliu</p>
+                </a>
             </div>
         </div>
         <div class="col-12 col-lg-6">
@@ -75,7 +74,7 @@
     </div>
     <div class="d-flex">
         <div class=" col-4 me-4">
-            <div class="card bg-card radius p-4">
+            <div class="card-portfolio bg-card radius p-4">
                 <img src="{{ asset('assets/images/section_2/card-1.jpg') }}" class="card-img-top" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
@@ -100,7 +99,7 @@
         </div>
         <div></div>
         <div class=" col-4 me-4">
-            <div class="card bg-card radius p-4">
+            <div class="card-portfolio bg-card radius p-4">
                 <img src="{{ asset('assets/images/section_2/card-2.jpg') }}" class="card-img-top" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
@@ -125,7 +124,7 @@
             </div>
         </div>
         <div class=" col-4">
-            <div class="card bg-card radius p-4">
+            <div class="card-portfolio bg-card radius p-4">
                 <img src="{{ asset('assets/images/section_2/card-3.jpg') }}" class="card-img-top round" alt="Metaverse">
                 <div class="card-body">
                     <div class="d-flex author flex-row align-items-center">
