@@ -105,10 +105,10 @@ viewBox="0 0 21000 19000"
    <stop offset="0" style="stop-opacity:1; stop-color:#6C6C6C"/>
    <stop offset="1" style="stop-opacity:1; stop-color:#252625"/>
   </linearGradient>
-  <radialGradient id="id12" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.64762E-14 0.999685 -0.999685 2.64762E-14 12633 -3156)" cx="7896.29" cy="4738.23" r="2849.25" fx="7896.29" fy="4738.23">
+  <!-- <radialGradient id="id12" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.64762E-14 0.999685 -0.999685 2.64762E-14 12633 -3156)" cx="7896.29" cy="4738.23" r="2849.25" fx="7896.29" fy="4738.23">
    <stop offset="0" style="stop-opacity:1; stop-color:#BD5A5A"/>
    <stop offset="1" style="stop-opacity:1; stop-color:#151515"/>
-  </radialGradient>
+  </radialGradient> -->
   <linearGradient id="id13" gradientUnits="userSpaceOnUse" x1="10394.17" y1="6618.05" x2="14177.7" y2="13445.06">
    <stop offset="0" style="stop-opacity:1; stop-color:#ABABAB"/>
    <stop offset="0.0117647" style="stop-opacity:1; stop-color:#ABABAB"/>

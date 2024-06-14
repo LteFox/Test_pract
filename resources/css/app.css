@@ -36,7 +36,7 @@
     right: 0;
     bottom: 0;
     background-image: url(../images/bg-2-ver.jpg);
-    box-shadow: 0px -950px 450px 0px #030812 inset;
+    box-shadow: 0px -1400px 450px 0px #030812 inset;
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 0.6;
@@ -221,7 +221,7 @@
         right: 0;
         bottom: 0;
         background-image: url(../images/bg-2-ver.jpg);
-        box-shadow: 0px -1350px 550px 0px #030812 inset;
+        /* box-shadow: 0px -1350px 550px 0px #030812 inset; */
         background-size: 150%;
         background-repeat: no-repeat;
         opacity: 0.6;
@@ -350,7 +350,7 @@
 .contact-form-container {
     position: absolute;
     top: 50%;
-    right: 5%;
+    right: 10%;
     transform: translateY(-50%);
     background: rgba(26, 26, 26, 0.9);
     padding: 30px;
