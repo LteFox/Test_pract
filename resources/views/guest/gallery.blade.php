@@ -19,7 +19,6 @@
             <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <!-- <img src="{{ asset('assets/images/ver-3.png') }}" alt=""> -->
                   <img src="{{ asset('assets/images/portofolio/website-1.jpg') }}" alt="">
 
                   </div>
@@ -29,8 +28,8 @@
                     <img src="https://cdn2.iconfinder.com/data/icons/super-hero/154/batman-comics-hero-avatar-head-mask-512.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text-m">Website</div>
+                    <div class="text-s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -49,7 +48,6 @@
               <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <!-- <img src="../images/bg-1.1.jpg" alt=""> -->
                        <img src="{{ asset('assets/images/portofolio/website-2.jpg') }}" alt="">
                   </div>
                 </div>
@@ -58,8 +56,8 @@
                     <img src="../images/section_3/avatar/Avatar.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -78,7 +76,6 @@
               <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <!-- <img src="../images/bg-1.1.jpg" alt=""> -->
                       <img src="{{ asset('assets/images/portofolio/website-3.jpg') }}" alt="">
                   </div>
                 </div>
@@ -87,8 +84,8 @@
                     <img src="../images/section_3/avatar/Avatar.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -107,7 +104,6 @@
               <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <!-- <img src="../images/bg-1.1.jpg" alt=""> -->
                       <img src="{{ asset('assets/images/portofolio/website-4.jpg') }}" alt="">
                   </div>
                 </div>
@@ -116,8 +112,8 @@
                     <img src="../images/section_3/avatar/Avatar.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -140,7 +136,6 @@
             <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <!-- <img src="{{ asset('assets/images/ver-3.png') }}" alt=""> -->
                   <img src="{{ asset('assets/images/portofolio/website-5.jpg') }}" alt="">
 
                   </div>
@@ -150,8 +145,8 @@
                     <img src="https://cdn2.iconfinder.com/data/icons/super-hero/154/batman-comics-hero-avatar-head-mask-512.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -170,7 +165,6 @@
               <div class="main">
                 <div class="card-portfolio">
                   <div class="card_content">
-                      <!-- <img src="../images/bg-1.1.jpg" alt=""> -->
                        <img src="{{ asset('assets/images/portofolio/website-6.jpg') }}" alt="">
                   </div>
                 </div>
@@ -179,8 +173,8 @@
                     <img src="../images/section_3/avatar/Avatar.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -208,8 +202,8 @@
                     <img src="../images/section_3/avatar/Avatar.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
@@ -237,8 +231,8 @@
                     <img src="../images/section_3/avatar/Avatar.png" alt="">
                   </div>
                   <div class="text">
-                    <div class="text_m">CSS Theme Switch</div>
-                    <div class="text_s">Praashoo7</div>
+                    <div class="text_m">Website</div>
+                    <div class="text_s">Milav</div>
                   </div>
                 </div>
                 <div class="btns">
