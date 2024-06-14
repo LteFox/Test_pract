@@ -14,22 +14,8 @@
                     <!-- <p class="text-white text-light mb-5 text-center text-lg-centr header-description">Ai nevoie de un site web? Noi te putem ajuta! Elaborăm site-uri web conform celor mai bune practici de web design și programare astfel încât produsul final să coresundă așteptărilor clienților noștri iar utilizatorilor să le oferim o experineță excelentă de navigare.</p>                    -->
                 </div>
             </div>
-            
-        </header>
-    </div>
-
-
-<section class=" my-lg-2">
-<div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
-                <div class="col-lg-7">
-                    <div>
-                        <h2 class="text-white mb-3 ">
-                            Despre Milav <br>
-                        </h2>
-                        <p class="text-light">
-                            MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
-                        </p>
-                    </div>
+            <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5 mb-0">
+                <div class="col-lg-8">
                     <div class=" d-flex butonss">
                         <a href="" class="btn active text-align-center text-center">
                             <p class="text-white mb-0 text-center">Contacteazăne</p>
@@ -42,12 +28,24 @@
                 <!-- <div class="image_about">
                     <img src="{{ asset('assets/images/bg-3_about.jpg') }}" alt="">
                 </div> -->
-
             </div> 
+        </header>
+    </div>
+    </div>
+
+<section class=" my-lg-2">
+
     <div class="container title d-flex flex-column justify-content-start align-items-center flex-lg-row my-5 mb-0 about_content">
       
     <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-        
+    <div>
+                        <h2 class="text-white mb-3 ">
+                            Despre Milav <br>
+                        </h2>
+                        <p class="text-light">
+                            MILAV creează produse premiate care transformă afacerile clienților săi. Și este bucuroasă să anunțe că, datorită creșterii continue, are sloturi deschise pentru dezvoltatorii React/React Native medii și seniori.
+                        </p>
+                    </div>
             <div class="list">
                 <h4>Unele dintre produsele create pentru clienți</h4>
                 <ul>
@@ -66,7 +64,7 @@
     </div>
 
 </section>
-</div>
+
 
 
 <!-- End About Them -->
